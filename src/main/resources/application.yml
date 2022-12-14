@@ -2,5 +2,6 @@ spring:
   thymeleaf:
     cache: false
   datasource:
-    generate-unique-name: false
-    name: tacocloud
+    url: jdbc:h2:mem:tacocloud
+    username: tongxinn
+    password: tartans
